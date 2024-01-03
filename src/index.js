@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// import Quiz from './Quiz'
+import Task6 from './TaskApp6Fb'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <App />
+  // <Quiz />
+
+  <Task6 />
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,40 @@
+/* fb_navbar.css */
+
+.fb-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.fb-logo {
+    font-size: 2.4rem;
+}
+
+.fb-search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.fb-search input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.fb-search i {
+    color: #fff;
+}
+
+.fb-menu i {
+    margin-right: 20px;
+    cursor: pointer;
+}
